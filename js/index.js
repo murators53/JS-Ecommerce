@@ -1,3 +1,4 @@
+
 const openOffcanvas = document.querySelector(".open-offcanvas"); //icon olan
 const closeOffcanvas = document.querySelector(".close-offcanvas"); //icon olan
 
@@ -417,7 +418,7 @@ myQuestion.addEventListener("keypress", function (event) {
     fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
       },
       //Fetch API, body parametresine gönderilen veriyi JSON formatında alır.
