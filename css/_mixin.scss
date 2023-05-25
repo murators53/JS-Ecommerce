@@ -1,0 +1,33 @@
+@mixin sayac {
+    position: absolute;
+    right: -30px;
+    font-size: 10px;
+    top: -8px;
+    background-color: rgb(211, 22, 22);
+    color: white;
+    font-weight: 500;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+@mixin btn-hover{
+    &:hover {
+        transform: scale(1.1);
+        transition: ease .7s;
+      }
+}
+
+@mixin tablet{
+
+    @media (min-width: 600px) and (max-width:830px)  {
+      /* Örnek stil özellikleri */
+      @content;    
+    }
+  }
+  @mixin mobile{
+  
+    @media (max-width: 599px)  {
+      /* Örnek stil özellikleri */
+      @content;
+    }
+  }
+  

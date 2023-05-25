@@ -1,0 +1,100 @@
+<!-- HEADER -->
+    <header class="header">
+
+        <div class="header-left">
+            <div class="header-left-logo ">
+                <a href="/">
+                    .Store
+                    <span class="circle"></span>
+                </a>
+            </div>
+            <ul class="header-left-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li>
+                    <a href="#">Women</a>
+                    <div class="for-submenu">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#">WOMEN CLOTHING</a></li>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops & Tees</a></li>
+                                <li><a href="#">Jackets</a></li>
+                                <li><a href="#">Pants</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">JEWELERY</a></li>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops & Tees</a></li>
+                                <li><a href="#">Jackets</a></li>
+                                <li><a href="#">Pants</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Body Jewelery</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">TOP BRANDS</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Zara</a></li>
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">H&M</a></li>
+                                <li><a href="#">Hurley</a></li>
+                                <li><a href="#">Dockers</a></li>
+                                <li>
+                                    <span>View all brands
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="submenu-advert">
+                                <img src="https://images.unsplash.com/photo-1543996469-600fbadfc1e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                                    alt="">
+                                <div class="submenu-advert-wanted">
+                                    <h3>MOST WANTED</h3>
+                                    <button>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#" class="for-count">//
+                        Sports
+                        <span class="count">New!</span>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <div class="header-right-price">
+                <span>Total</span>
+                <span class="total-price">$0</span>
+            </div>
+            <div class="header-right-favorite">
+                <i class="fa-solid fa-heart fa-lg"></i>
+                <span class="count">0</span>
+            </div>
+            <div class="header-right-cart">
+                <span class="count count-quantity">0</span>
+                <i class="fa-solid fa-cart-shopping fa-lg open-cart"></i>
+                <div class="mycart">
+                    <!-- 
+                        <div class="card" id="product-${eklenecekUrun.id}">
+                <img src="${eklenecekUrun.image}" alt="${eklenecekUrun.title}">
+                <div class="mycart-price">
+                <p>${eklenecekUrun.title}</p>
+                <span>$${eklenecekUrun.price} x 1</span>
+                </div>
+                <div class="mycart-total">
+                $${eklenecekUrun.price}
+                </div>
+            </div>
+                     -->
+                </div>
+            </div>
+        </div>
+    </header>

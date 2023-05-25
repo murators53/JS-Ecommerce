@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="register">
+        <form class="register-form">
+            <h1 class="register-title">Kayıt Ol</h1>
+            <div class="register-form-group">
+                <label for="name">Adınız:</label>
+                <input type="text" name="name" id="name">
+                <p id="error-name" class="errorInput">Lütfen kullanıcı adı giriniz.</p>
+            </div>
+            <div class="register-form-group">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" name="username" id="username">
+                <p id="error-username" class="errorInput">Lütfen kullanıcı adı giriniz.</p>
+            </div>
+            <div class="register-form-group">
+                <label for="password">Şifre:</label>
+                <input type="password" name="password" id="password">
+                <p id="error-password" class="errorInput">Lütfen kullanıcı adı giriniz.</p>
+            </div>
+            <div class="register-form-button">
+                <button type="submit" class="btn-register">Kayıt Ol</button>
+            </div>
+            <!-- modal ,register bittikten sonra olustulacak  -->
+            <div class="modal">
+                <div class="modal-content">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>merhaba <b>Isim</b></span>
+                    <p>Kaydiniz tamamlandi.Yönlendiriliyorsunuz.</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="js/register.js"></script>
+</body>
+</html>

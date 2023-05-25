@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SWIPPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <!-- OFFCANVAS sonra eklenecekk-->
+        <div class="offcanvas">
+            <!-- open-offcanvas => offcanvasi  acmak icin -->
+            <div class="offcanvas-top ">
+                <!-- open-offcanvas => offcanvasi  acmak icin -->
+                <a href="/">
+                    .Store
+                    <span class="circle"></span>
+                </a>
+                <i class="fa-solid fa-xmark close-offcanvas"></i>
+            </div>
+            <ul class="offcanvas-middle">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><!-- 3.li etiketi -->
+                    <a href="#">Women
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">WOMEN CLOTHING</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Tops & Tees</a></li>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Pants</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Swimwear</a></li>
+                            <li><a href="#">Swimwear</a></li>
+                            <li><a href="#">Swimwear</a></li>
+                            <li><a href="#">Swimwear</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">JEWELERY</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Tops & Tees</a></li>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Pants</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Body Jewelery</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">TOP BRANDS</a></li>
+                            <li><a href="#">Nike</a></li>
+                            <li><a href="#">Zara</a></li>
+                            <li><a href="#">Adidas</a></li>
+                            <li><a href="#">H&M</a></li>
+                            <li><a href="#">Hurley</a></li>
+                            <li><a href="#">Dockers</a></li>
+                            <li>
+                                <span>View all brands
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="submenu-advert">
+                            <img src="https://images.unsplash.com/photo-1543996469-600fbadfc1e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                                alt="">
+                            <div class="submenu-advert-wanted">
+                                <h3>MOST WANTED</h3>
+                                <button>Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#" class="for-count">
+                        Sports
+                        <span class="count">New!</span>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="header-left">
+            <div class="header-left-logo ">
+                <!-- open-offcanvas => offcanvasi  acmak icin -->
+                <i class="fa-solid fa-bars open-offcanvas"></i>
+                <a href="/">
+                    .Store
+                    <span class="circle"></span>
+                </a>
+            </div>
+            <ul class="header-left-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li>
+                    <a href="#">Women</a>
+                    <div class="for-submenu"><!-- sadece Icon uzerine gelince acilmasi icin -->
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#">WOMEN CLOTHING</a></li>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops & Tees</a></li>
+                                <li><a href="#">Jackets</a></li>
+                                <li><a href="#">Pants</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                                <li><a href="#">Swimwear</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">JEWELERY</a></li>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops & Tees</a></li>
+                                <li><a href="#">Jackets</a></li>
+                                <li><a href="#">Pants</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Body Jewelery</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">TOP BRANDS</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Zara</a></li>
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">H&M</a></li>
+                                <li><a href="#">Hurley</a></li>
+                                <li><a href="#">Dockers</a></li>
+                                <li>
+                                    <span>View all brands
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="submenu-advert">
+                                <img src="https://images.unsplash.com/photo-1543996469-600fbadfc1e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                                    alt="">
+                                <div class="submenu-advert-wanted">
+                                    <h3>MOST WANTED</h3>
+                                    <button>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#" class="for-count">
+                        Sports
+                        <span class="count">New!</span>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <div class="header-right-price">
+                <span>Total</span>
+                <span class="total-price">$0</span>
+            </div>
+            <div class="header-right-favorite">
+                <i class="fa-solid fa-heart fa-lg"></i>
+                <span class="count">0</span>
+            </div>
+            <div class="header-right-cart"><!-- countlar sayac icin -->
+                <i class="fa-solid fa-cart-shopping fa-lg open-cart"></i>
+                <span class="count count-quantity">0</span>
+                <div class="mycart">
+                    <div class="card" id="product-${eklenecekUrun.id}">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="${eklenecekUrun.title}">
+                        <div class="mycart-price">
+                            <p>urun adi</p>
+                            <span>$fiyat x 1</span>
+                        </div>
+                        <div class="mycart-total">
+                            toplam
+                        </div>
+                    </div>
+                    <div class="card" id="product-${eklenecekUrun.id}">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="${eklenecekUrun.title}">
+                        <div class="mycart-price">
+                            <p>urun adi</p>
+                            <span>$fiyat x 1</span>
+                        </div>
+                        <div class="mycart-total">
+                            toplam
+                        </div>
+                    </div>
+                    <div class="card" id="product-${eklenecekUrun.id}">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="${eklenecekUrun.title}">
+                        <div class="mycart-price">
+                            <p>urun adi</p>
+                            <span>$fiyat x 1</span>
+                        </div>
+                        <div class="mycart-total">
+                            toplam
+                        </div>
+                    </div>
+                    <div class="card" id="product-${eklenecekUrun.id}">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="${eklenecekUrun.title}">
+                        <div class="mycart-price">
+                            <p>urun adi</p>
+                            <span>$fiyat x 1</span>
+                        </div>
+                        <div class="mycart-total">
+                            toplam
+                        </div>
+                    </div>
+                    <div class="card" id="product-${eklenecekUrun.id}">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="${eklenecekUrun.title}">
+                        <div class="mycart-price">
+                            <p>urun adi</p>
+                            <span>$fiyat x 1</span>
+                        </div>
+                        <div class="mycart-total">
+                            toplam
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HEADER-MAIN -->
+    <div class="header-main ">
+        <div class="header-main-left">
+            <div class="department">
+                <p>Ürünler</p>
+                <span>1742 ürün</span>
+            </div>
+            <div class="for-mainmenu ">
+                <i class="fa-solid fa-bars "></i>
+                <div class="mainmenu ">
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/427285/best-product-certificate.svg" width="28" alt="">
+                        <span>Beauty</span>
+                        <div class="for-mainmenus-side">
+                            <i class="fa-solid fa-arrow-right "></i>
+                            <div class="mainmenus-side ">
+                                <ul>
+                                    <li><a href="#">Makeup</a></li>
+                                    <li><a href="#">Skin Care</a></li>
+                                    <li><a href="#">Hair Care</a></li>
+                                    <li><a href="#">Personel Care</a></li>
+                                    <li><a href="#">Foot</a></li>
+                                    <li><a href="#">Hand Core</a></li>
+                                    <li><a href="#">Makeup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/381353/electronic-powerbank-electric.svg" width="28"
+                            alt="">
+                        <span>Electronic</span>
+                        <div class="for-mainmenus-side">
+                            <i class="fa-solid fa-arrow-right "></i>
+                            <div class="mainmenus-side ">
+                                <ul>
+                                    <li><a href="#">Makeup</a></li>
+                                    <li><a href="#">Skin Care</a></li>
+                                    <li><a href="#">Hair Care</a></li>
+                                    <li><a href="#">Personel Care</a></li>
+                                    <li><a href="#">Foot</a></li>
+                                    <li><a href="#">Hand Core</a></li>
+                                    <li><a href="#">Makeup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/513111/woman.svg" width="28" alt="">
+                        <span>Women's Fashion</span>
+                        <div class="for-mainmenus-side">
+                            <i class="fa-solid fa-arrow-right "></i>
+                            <div class="mainmenus-side">
+                                <ul>
+                                    <li><a href="#">Makeup</a></li>
+                                    <li><a href="#">Skin Care</a></li>
+                                    <li><a href="#">Hair Care</a></li>
+                                    <li><a href="#">Personel Care</a></li>
+                                    <li><a href="#">Foot</a></li>
+                                    <li><a href="#">Hand Core</a></li>
+                                    <li><a href="#">Makeup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/494429/man-suit-work.svg" width="28" alt="">
+                        <span>Men's Fashion</span>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/483511/girl-2.svg" width="28" alt="">
+                        <span>Girl's Fashion</span>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/429873/health-care-love.svg" width="28" alt="">
+                        <span>Health & Household</span>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/497392/pet.svg" width="28" alt="">
+                        <span>Pet Supplies</span>
+                        <div class="for-mainmenus-side">
+                            <i class="fa-solid fa-arrow-right "></i>
+                            <div class="mainmenus-side">
+                                <ul>
+                                    <li><a href="#">Makeup</a></li>
+                                    <li><a href="#">Skin Care</a></li>
+                                    <li><a href="#">Hair Care</a></li>
+                                    <li><a href="#">Personel Care</a></li>
+                                    <li><a href="#">Foot</a></li>
+                                    <li><a href="#">Hand Core</a></li>
+                                    <li><a href="#">Makeup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mainmenus">
+                        <img src="https://www.svgrepo.com/show/29936/ball-for-sports.svg" width="28" alt="">
+                        <span>Sports</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search for products">
+            <button>ARA</button>
+        </div>
+    </div>
+
+    <!-- SLIDE -->
+    <div class="slider">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./assets/slider2.jpg" alt="Slide 1">
+                    <h1>Aramak istedeğiniz her ürün</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider1.jpg" alt="Slide 2">
+                    <h1>Kendi fiyat aralğınıza göre</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider3.jpg" alt="Slide 3">
+                    <h1>Karar sizin...</h1>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+
+    <!-- PRODUCT -->
+    <div class="product">
+        <div class="product-title">
+            POPULER ÜRÜNLER
+        </div>
+        <div class="product-card">
+            <div class="product-card-left"><!-- BURDA CARD SEPETLERI EKLENECEK -->
+                <!-- <div class="card">ılkte uapacagımız kısım
+                    <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="alt">
+                    <div class="card-rate">
+                      <i class="fa-solid fa-star"></i>
+                      <span>rate</span>
+                    </div>
+                    <h3>${product.title}</h3>
+                    <div class="card-process">
+                        <i class="fa-solid fa-heart"></i>
+                        <button>price</button>
+                    </div>
+                  </div> -->
+            </div>
+            <div class="product-card-right">
+                <div class="filter-options">
+                    <h3>FILTRELE</h3>
+                    <div class="category-filter">
+                        <label for="category-filter">Kategori</label>
+                        <select id="category-filter">
+                            <option value="allCategory" selected>Tümü</option>
+                            <option value="electronics">Elektronik</option>
+                            <option value="jewelery">Takı</option>
+                            <option value="men's clothing">Erkek Giyim</option>
+                            <option value="women's clothing">Kadın Giyim</option>
+                        </select>
+                    </div>
+                    <div class="price-filter">
+
+                        <label for="price-filter">Fiyat Aralığı</label>
+                        <select id="price-filter">
+                            <option value="allPrice" selected>Tümü</option><!-- Value boş ise -->
+                            <option value="0-10">$0-$10</option>
+                            <option value="10-100">$10-$100</option>
+                            <option value="100-500">$100-$500</option>
+                            <option value="500-">>$500</option>
+                        </select>
+                    </div>
+                    <div class="rate-filter"><!-- for ile id arasinda ilişki kurulabiliniyor -->
+                        <label for="rate-filter">Ürün Değerlendirmse:</label>
+                        <label>
+                            <input type="radio" name="rate-filter" value="allRate" checked>
+                            Tümü
+                        </label>
+                        <label>
+                            <input type="radio" name="rate-filter" value="1-5">
+                            <i class="fa-solid fa-star"></i> 1 yıldız ve üzeri
+                        </label>
+                        <label>
+                            <input type="radio" name="rate-filter" value="2-5">
+                            <i class="fa-solid fa-star"></i> 2 yıldız ve üzeri
+                        </label>
+                        <label>
+                            <input type="radio" name="rate-filter" value="3-5">
+                            <i class="fa-solid fa-star"></i> 3 yıldız ve üzeri
+                        </label>
+                        <label>
+                            <input type="radio" name="rate-filter" value="4-5">
+                            <i class="fa-solid fa-star"></i> 4 yıldız ve üzeri
+                        </label>
+                    </div>
+
+                    <button id="apply-filter">Filtrele</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- YARDIM ALMA -->
+     <div class="help">
+        <div class="help-chat">
+            <div class="help-chat-left">
+                <p>Merhaba nasıl yardımcı olabilirim?</p>
+            </div>
+           <!--  <div class="help-chat-right">
+                <p>Merhaba sorum var?</p>
+            </div> -->
+        </div>
+        <div class="help-process">
+            <i class="fa-solid fa-comment-dots"></i>
+            <input type="text" placeholder="? Bir sorununuz mu var">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-left">
+            <div class="footer-lefts">
+                <hr>
+                <h3 href="#">Home<h3>
+                        <p>Shop</p>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+            </div>
+            <div class="footer-lefts">
+                <hr>
+                <h3>Store</h3>
+                <p>Security Notice</p>
+                <p>Location & Hours</p>
+                <p>Rentals</p>
+                <p>Privacy Notice</p>
+            </div>
+            <div class="footer-lefts">
+                <hr>
+                <h3>Store</h3>
+                <p><i class="fa fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fa-solid fa-circle-info"></i> info@example.com</p>
+                <p><i class="fa fa-map-marker"></i> 1234 Street Name, City Name, United States</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-right-logo">
+                <h1>Store</h1>
+            </div>
+            <div class="footer-right-social">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
+                <i class="fa-brands fa-twitter fa-lg"></i>
+                <i class="fa-brands fa-youtube fa-lg"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rights -->
+    <div class="rights">
+        <p>
+            ©2021 Music Store
+        </p>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
